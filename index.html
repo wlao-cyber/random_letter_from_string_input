@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- author: Wilson Lao;  purpose: Taking input of string and producing random character; date of page creation: 2023-01-14 -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Returning a Random Letter From Your Name</title>
+    <script src="js/main.js" type="module"></script>
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+
+<body>
+<header>
+    <h1>Returning a Random Character from Inputted Text</h1> 
+</header>
+
+<section>
+<h2>Enter Your Name</h2>
+
+<form>
+
+    <label for="name_input">Name:&nbsp;</label>
+    <input type="text" id="name_input">
+    <input type="button" onclick="generate_letter()" value="SUBMIT">
+
+</form>
+
+</section> 
+
+<br>
+<br>
+
+<section>
+<h2>A random letter/character will be generated in the text box below.</h2>
+    
+<textarea id="console" readonly></textarea>
+
+</section>  
+
+<footer>
+<br>
+<a href="https://wlao-cyber.github.io/">Return to the Main Page</a>
+</footer>
+
+</body>
+</html>
